@@ -3,33 +3,62 @@
 int main() {
     printf("Hello World!\n");
 
-    int age = 21;
-    printf("Age: %d", age);
+    // int age = 21;
+    // printf("Age: %d", age);
 
-    age = 31;
-    printf("\nNew age: %d\n", age);
+    // age = 31;
+    // printf("\nNew age: %d\n", age);
 
-    int firstNumber = 33;
-    printf("First Number = %d\n", firstNumber);
+    // int firstNumber = 33;
+    // printf("First Number = %d\n", firstNumber);
 
-    int secondNumber = firstNumber;
-    printf("Second Number = %d\n", secondNumber);
+    // int secondNumber = firstNumber;
+    // printf("Second Number = %d\n", secondNumber);
 
-    int variable1, variable2 = 25;
+    // int variable1, variable2 = 25;
 
-    double result = 4.5;
-    float standardScore = 5.0f;
+    // double result = 4.5;
+    // float standardScore = 5.0f;
 
-    printf("My CGPA is: %.2lf\n", result);
-    printf("The score %.2f is a first class result\n", standardScore);
+    // printf("My CGPA is: %.2lf\n", result);
+    // printf("The score %.2f is a first class result\n", standardScore);
 
     // Storing an exponential number
-    double eNum = 5.5e6;
-    printf("%lf\n", eNum);
+    // double eNum = 5.5e6;
+    // printf("%lf\n", eNum);
 
-    char character = 'z';
-    printf("%c\n", character);
-    printf("%d\n", character);
+    // char character = 'z';
+    // printf("%c\n", character);
+    // printf("%d\n", character);
+
+    // Working with inputs from the user
+    int age;
+
+    // Getting the input from the user
+    printf("Enter an input value: ");
+    scanf("%d", &age);
+    printf("Age = %d\n", age);
+
+    double num;
+    char alphabet;
+    double num2;
+    char alphabet2;
+
+    printf("Enter a decimal input: ");
+    scanf("%lf", &num);
+
+    printf("Enter character input: ");
+    scanf("\n%c", &alphabet);
+
+    printf("The number is: %.2lf", num);
+    printf("\nThe character is: %c", alphabet);
+
+    // Taking multiple input from the user
+    scanf("\n%lf %c", &num2, &alphabet2);
+
+    printf("\nThe second number is: %.2lf", num2);
+    printf("\nThe second character is: %c", alphabet2);
+
 
     return 0;
 }
