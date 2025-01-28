@@ -86,5 +86,24 @@ int main() {
 
     sizeof      %zu for printing
 
+    An operator is a symbol that handles operations
+    Arithmetic Operators: +, -, *, /, %, ++, --
+
+    The remainder operator can only be used with integers and not doubles or floats.
+
+    In type conversion, below is the data type heirarchy
+    - long double
+    - double
+    - float
+    - long
+    - int
+    - short
+    - char
+
+    We have two types of type conversions
+    - Implicit type conversion
+    - Explicit type conversion
+
+    
 
 */
