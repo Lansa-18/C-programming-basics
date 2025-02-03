@@ -68,22 +68,35 @@ int main() {
     // printf("\n%d ", value2);
     // printf("\n%d ", value3);
 
-    int age;
-    age = 22;
+    // int age;
+    // age = 22;
 
     // printf("Enter your age: ");
     // scanf("%d", &age);
 
-    if (age > 120) {
-        printf("Invalid age");
-    } else if (age < 0) {
-        printf("Invalid age");
-    } else if (age >= 18) {
-        printf("You are eligible to vote.");
-    } else {
-        printf("Sorry, you are not eligible to vote.");
-    }
+    // if (age > 120) {
+    //     printf("Invalid age");
+    // } else if (age < 0) {
+    //     printf("Invalid age");
+    // } else if (age >= 18) {
+    //     printf("You are eligible to vote.");
+    // } else {
+    //     printf("Sorry, you are not eligible to vote.");
+    // }
 
+    char operator = '+';
+
+    int num1 = 8;
+    int num2 = 7;
+
+    int result = (operator == '+') ? (num1 + num2) : (num1 - num2);
+    printf("\n%d", result);
+
+    // Creating a program to check whether a number is odd or even
+    // int number;
+    // printf("\nEnter a number: ");
+    // scanf("%d", &number);
+    // (number % 2 == 0) ? printf("The number is even") : printf("The number is odd");
 
     return 0;
 }
@@ -147,5 +160,8 @@ int main() {
     ! - NOT (returns the opposite bool value based on whichever value it was used on)
 
     Boolean expressions are very useful in decision making and loops as they are used to carry out actions based on particular conditions.
+
+    Syntax of the ternary operator
+    test_condition ? do_this_expression : do_that_expression;
 
 */
