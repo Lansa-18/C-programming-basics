@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h> // Import this package in order to create boolean types. 
 
 int main() {
     printf("Hello World!\n");
@@ -32,32 +33,52 @@ int main() {
     // printf("%d\n", character);
 
     // Working with inputs from the user
-    int age;
+    // int age;
 
     // Getting the input from the user
-    printf("Enter an input value: ");
-    scanf("%d", &age);
-    printf("Age = %d\n", age);
+    // printf("Enter an input value: ");
+    // scanf("%d", &age);
+    // printf("Age = %d\n", age);
 
-    double num;
-    char alphabet;
-    double num2;
-    char alphabet2;
+    // double num;
+    // char alphabet;
+    // double num2;
+    // char alphabet2;
 
-    printf("Enter a decimal input: ");
-    scanf("%lf", &num);
+    // printf("Enter a decimal input: ");
+    // scanf("%lf", &num);
 
-    printf("Enter character input: ");
-    scanf("\n%c", &alphabet);
+    // printf("Enter character input: ");
+    // scanf("\n%c", &alphabet);
 
-    printf("The number is: %.2lf", num);
-    printf("\nThe character is: %c", alphabet);
+    // printf("The number is: %.2lf", num);
+    // printf("\nThe character is: %c", alphabet);
 
     // Taking multiple input from the user
-    scanf("\n%lf %c", &num2, &alphabet2);
+    // scanf("\n%lf %c", &num2, &alphabet2);
 
-    printf("\nThe second number is: %.2lf", num2);
-    printf("\nThe second character is: %c", alphabet2);
+    // printf("\nThe second number is: %.2lf", num2);
+    // printf("\nThe second character is: %c", alphabet2);
+
+    // bool value1 = true;
+    // bool value2 = false;
+    // bool value3 = (8 < 4);
+
+    // printf("%d ", value1);
+    // printf("\n%d ", value2);
+    // printf("\n%d ", value3);
+
+    int age;
+    age = 25;
+
+    // printf("Enter your age: ");
+    // scanf("%d", &age);
+
+    if (age >= 18) {
+        printf("You are eligible to vote.");
+    } else {
+        printf("Sorry, you are not eligible to vote.");
+    }
 
 
     return 0;
@@ -104,6 +125,23 @@ int main() {
     - Implicit type conversion
     - Explicit type conversion
 
+    There is no format specifier to print boolean variables, in order to print boolean values we make use of %d. This is because bool is represented as an integer value.
     
+    false - 0
+    true - 1 or all the values except 0
+
+    true / false cannot be used in capital letters.
+
+    Comparison operators can also be used to compare variables.
+
+    A boolean expression checks for a particular condition and results in either true / false and based on the result, different actions can be carried out.
+
+    Logical operators are used with boolean expressions to perform logical operations.
+
+    && - AND (returns true if both conditions are true)
+    || - OR (returns true if one condition is true)
+    ! - NOT (returns the opposite bool value based on whichever value it was used on)
+
+    Boolean expressions are very useful in decision making and loops as they are used to carry out actions based on particular conditions.
 
 */
