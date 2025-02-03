@@ -98,6 +98,36 @@ int main() {
     // scanf("%d", &number);
     // (number % 2 == 0) ? printf("The number is even") : printf("The number is odd");
 
+    int number;
+    printf("\nEnter a number between 1 - 7: ");
+    scanf("%d", &number);
+
+    switch (number) {
+        case 1:
+            printf("Sunday");
+            break;
+        case 2:
+            printf("Monday");
+            break;
+        case 3:
+            printf("Tuesday");
+            break;
+        case 4:
+            printf("Wednenday");
+            break;
+        case 5:
+            printf("Thursday");
+            break;
+        case 6:
+            printf("Friday");
+            break;
+        case 7:
+            printf("Saturdaf");
+            break;
+        default:
+            printf("Invalid Number");
+    }
+
     return 0;
 }
 
@@ -163,5 +193,19 @@ int main() {
 
     Syntax of the ternary operator
     test_condition ? do_this_expression : do_that_expression;
+
+    Syntax of the switch statement
+    switch (variable / expression) {
+        case value1:
+            body of the case
+            break;
+
+        case value2:
+            body of the case
+            break;
+
+        default:
+            body of the default
+    }
 
 */
