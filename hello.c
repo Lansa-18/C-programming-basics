@@ -84,13 +84,13 @@ int main() {
     //     printf("Sorry, you are not eligible to vote.");
     // }
 
-    char operator = '+';
+    // char operator = '+';
 
-    int num1 = 8;
-    int num2 = 7;
+    // int num1 = 8;
+    // int num2 = 7;
 
-    int result = (operator == '+') ? (num1 + num2) : (num1 - num2);
-    printf("\n%d", result);
+    // int result = (operator == '+') ? (num1 + num2) : (num1 - num2);
+    // printf("\n%d", result);
 
     // Creating a program to check whether a number is odd or even
     // int number;
@@ -98,35 +98,63 @@ int main() {
     // scanf("%d", &number);
     // (number % 2 == 0) ? printf("The number is even") : printf("The number is odd");
 
-    int number;
-    printf("\nEnter a number between 1 - 7: ");
-    scanf("%d", &number);
+    // SWITCH STATEMENT
+    // int number;
+    // printf("\nEnter a number between 1 - 7: ");
+    // scanf("%d", &number);
 
-    switch (number) {
-        case 1:
-            printf("Sunday");
-            break;
-        case 2:
-            printf("Monday");
-            break;
-        case 3:
-            printf("Tuesday");
-            break;
-        case 4:
-            printf("Wednenday");
-            break;
-        case 5:
-            printf("Thursday");
-            break;
-        case 6:
-            printf("Friday");
-            break;
-        case 7:
-            printf("Saturdaf");
-            break;
-        default:
-            printf("Invalid Number");
-    }
+    // switch (number) {
+    //     case 1:
+    //         printf("Sunday");
+    //         break;
+    //     case 2:
+    //         printf("Monday");
+    //         break;
+    //     case 3:
+    //         printf("Tuesday");
+    //         break;
+    //     case 4:
+    //         printf("Wednenday");
+    //         break;
+    //     case 5:
+    //         printf("Thursday");
+    //         break;
+    //     case 6:
+    //         printf("Friday");
+    //         break;
+    //     case 7:
+    //         printf("Saturdaf");
+    //         break;
+    //     default:
+    //         printf("Invalid Number");
+    // }
+
+    // WHILE LOOP
+    // int count = 1;
+    // while (count < 5) {
+    //     printf("While Loop in C \n");
+    //     printf("Count = %d\n", count);
+    //     count++;
+    // }
+
+    // int number;
+    // printf("Enter the number: ");
+    // scanf("%d", &number);
+
+    // int count2 = 1;
+
+    // while ( count2 <= 12) {
+    //     int product = number * count2;
+    //     printf("%d * %d = %d\n", number, count, product);
+    //     count2++;
+    // }
+
+    // DO WHILE LOOP
+    int count = 5;
+    do {
+        printf("%d\n", count);
+        count++;
+    } while (count < 5);
 
     return 0;
 }
@@ -207,5 +235,7 @@ int main() {
         default:
             body of the default
     }
+
+    It is important to note that in the do while loop, the code is first executed in the do block before the condition is then evaluated. This means the code will run once even if the condition is false.
 
 */
