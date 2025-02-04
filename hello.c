@@ -157,11 +157,32 @@ int main() {
     // } while (count < 5);
 
     // For Loop
-    int sum = 0;
-    for (int i = 2; i <= 100; i = i+2) {
-        sum = sum + i;
+    // for (int i = 1; i <= 5; i++) {
+    //     if (i == 3) {
+    //         // break;
+    //         continue;
+    //     }
+    //     printf("%d\n", i);
+    // }
+
+    while (1) {
+        int number;
+        printf("Enter a number: ");
+        scanf("%d", &number);
+
+        if (number <= 0) {
+            break;
+        }
+
+        if (number % 2 != 0) {
+            continue;
+        }
+        
+        printf("%d\n", number);
+        
     }
-    printf("%d ", sum);
+
+
 
     return 0;
 
@@ -245,5 +266,7 @@ int main() {
     }
 
     It is important to note that in the do while loop, the code is first executed in the do block before the condition is then evaluated. This means the code will run once even if the condition is false.
+
+    The continue statement skips the current iteration of the loop and starts the loop with the next iteration.
 
 */
